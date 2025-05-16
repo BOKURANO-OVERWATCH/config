@@ -1,8 +1,27 @@
 {
     "name": "repository-template",
+    "version": "0.0.1",
+    "contributors": [
+        "Retty (https://github.com/RettyOW)",
+        "tatsuo (https://github.com/t4t5u0)",
+        "f1w3 (https://github.com/f1w3)"
+    ],
+    "description": "repository template for bokuoba",
+    "repository": "BOKURANO-OVERWATCH/repository-template",
     "module": "src/index.ts",
     "type": "module",
-    "private": true,
+    "private": false,
+    "publishConfig": {
+        "access": "public"
+    },
+    "license": "MIT",
+    "exports": {
+        "./tsconfig": "./tsconfig.json",
+        "./biome": "./biome.json"
+    },
+    "bin": {
+        "clean": "./scripts/clean.ts"
+    },
     "devDependencies": {
         "@biomejs/biome": "2.0.0-beta.4",
         "@types/bun": "latest"
