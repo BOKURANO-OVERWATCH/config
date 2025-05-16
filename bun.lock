@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "repository-template",
+      "name": "@bokurano/config",
       "devDependencies": {
         "@biomejs/biome": "2.0.0-beta.4",
         "@types/bun": "latest",

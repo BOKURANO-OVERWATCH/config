@@ -7,7 +7,7 @@
         "f1w3 (https://github.com/f1w3)"
     ],
     "description": "repository template for bokuoba",
-    "repository": "BOKURANO-OVERWATCH/repository-template",
+    "repository": "BOKURANO-OVERWATCH/config",
     "module": "src/index.ts",
     "type": "module",
     "private": false,
