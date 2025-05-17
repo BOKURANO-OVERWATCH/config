@@ -45,10 +45,6 @@
         "lib": ["ESNext", "esnext.disposable"],
         "target": "ESNext",
         "useDefineForClassFields": true,
-        "baseUrl": "./src",
-        "paths": {
-            "@/*": ["*"]
-        },
 
         "skipLibCheck": true
     },
